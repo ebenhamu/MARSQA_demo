@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Welcome, {{ session['username'] }}!</p>
+<button onclick="showClock()">Show Clock</button>
+<div id="clock-container"></div>
+<a href="/logout">Logout</a>
+{% endblock %}
