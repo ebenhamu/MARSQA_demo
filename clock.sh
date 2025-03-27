@@ -46,3 +46,6 @@ sudo systemctl enable clock.service
 
 # Stop UFW if necessary (consider configuring it properly instead of disabling)
 sudo ufw disable
+
+
+# run in terminl the commend: "curl  | sh" 
