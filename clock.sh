@@ -48,4 +48,4 @@ sudo systemctl enable clock.service
 sudo ufw disable
 
 
-# run in terminl the commend: "curl  | sh" 
+# run in terminl the commend: "curl  https://raw.githubusercontent.com/ebenhamu/MARSQA_demo/refs/heads/main/clock.sh | sh" 
