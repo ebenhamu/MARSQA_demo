@@ -9,7 +9,7 @@ def hash_password(password):
 
 @app.route('/')
 def home():
-    return redirect('/login')
+    return redirect('/register')
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
